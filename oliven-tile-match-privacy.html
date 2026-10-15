@@ -96,7 +96,7 @@
   <main>
     <p class="brand">Brounity Studio</p>
     <h1>Oliven Tile Match Gizlilik Politikası</h1>
-    <p class="note">Yürürlük tarihi: 19 Eylül 2026</p>
+    <p class="note">Son güncelleme: 15 Ekim 2026</p>
     <p class="summary">
       Oliven Tile Match hesap açmayı gerektirmeyen bir mobil bulmaca oyunudur.
       Brounity Studio kişisel verileri satmaz. Oyun; reklam gösterimi, kullanım
@@ -109,6 +109,7 @@
     <ul>
       <li>Cihaz veya reklam tanımlayıcıları, IP adresi ve yaklaşık bölge bilgisi.</li>
       <li>Oyun içi etkileşimler, bölüm ilerlemesi, reklam görüntüleme ve reklam etkileşimleri.</li>
+      <li>Android'de Google Play Games ile oturum açıldığında oyuncu kimliği, görünen oyuncu takma adı, Firebase hesap kimliği, bölüm numarası, en iyi bitirme süresi ve kaydın güncellenme zamanı.</li>
       <li>Cihaz modeli, işletim sistemi sürümü, uygulama sürümü ve dil bilgisi.</li>
       <li>Hata, performans ve tanılama bilgileri.</li>
       <li>Satın alınan ürün kimliği, işlem durumu ve satın alma makbuzu gibi Google Play Billing veya Apple App Store verileri.</li>
@@ -142,6 +143,10 @@
       oyunun performansını ve kullanıcı deneyimini değerlendirmek amacıyla
       işleyebilir.
     </p>
+
+    <h2>Android Sıralaması ve Google Play Games</h2>
+    <p>Oyun Google Play Games hesabı olmadan da oynanabilir. Google Play Games ile giriş yapılırsa, hizmetin verdiği yetkilendirme Firebase Authentication ile bir oyun hesabına bağlanabilir. Bölüme özel en iyi süreler Firebase Firestore'da saklanır. Takma ad, oyun içi avatar ve süre/sıra bilgisi diğer oyuncuların sıralama listelerinde gösterilir. Google hesabınızın şifresi oyun tarafından alınmaz. Google Play Games'e bağlanma tercihlerinizi Google Play Games ayarlarından yönetebilirsiniz.</p>
+    <p>Firebase Analytics'e bölüm başlatma, bitirme, kaybetme nedeni, aktif oyun süresi, ulaşılan bölüm, kullanılan joker türü ve ödüllü reklam talebi/ödül sonucu gönderilebilir. Bu özel analiz olaylarına oyuncu takma adı, e-posta, telefon numarası veya Google Play Games/Firebase hesap kimliği eklemeyiz. Analiz SDK'sı kendi uygulama örneği ve cihaz tanımlayıcılarını işleyebilir.</p>
 
     <h2>Uygulama İçi Satın Almalar</h2>
     <p>
@@ -182,6 +187,11 @@
       düşünüyorsa aşağıdaki e-posta adresinden bize ulaşabilir.
     </p>
 
+    <h2 id="delete-data">Oliven Tile Match Hesap ve Veri Silme Talebi</h2>
+    <p>Android oyununda Ayarlar → Gizlilik / Hesap silme üzerinden bu bölüme ulaşabilir veya bu sayfayı doğrudan açabilirsiniz. Brounity Studio'dan Oliven'e ait Firebase oyun hesabınızın ve bölüm sıralama kayıtlarınızın silinmesini istemek için aşağıdaki bağlantıyla e-posta talebi başlatın:</p>
+    <p><a href="mailto:brounitystudio@gmail.com?subject=Oliven%20Tile%20Match%20hesap%20ve%20veri%20silme%20talebi">Oliven hesap ve verilerimin silinmesini talep et</a></p>
+    <p>Oyundaki görünen takma adınızı ve varsa bölüm/sıra bilginizi yazın. Yanlış oyuncunun verisini silmemek için hesabın size ait olduğunu doğrulayacak ek bilgi isteyebiliriz. Şifrenizi, ödeme kartınızı veya doğrulama kodunuzu göndermeyin. Doğrulama sonrasında ilgili Firebase hesap kaydı ve bu hesaba bağlı bölüm sıralama kayıtları silinir. Google/Apple hesabınız, mağazanın ödeme kayıtları ve cihazınızdaki yerel kayıtlar bu taleple silinmez; yerel oyun verileri cihazın uygulama ayarlarından temizlenebilir. Yeniden Google Play Games ile bağlanırsanız yeni bir oyun hesabı ve yeni skor kayıtları oluşabilir. Yasal yükümlülükler veya hizmet sağlayıcıların saklama gereklilikleri kapsamındaki kayıtlar ayrıca değerlendirilebilir.</p>
+
     <h2>Kullanıcı Hakları ve İletişim</h2>
     <p>
       Gizlilik, veri işleme veya silme talepleri için
@@ -204,7 +214,7 @@
 
     <section class="section" lang="en">
       <h2>Oliven Tile Match Privacy Policy</h2>
-      <p class="note">Effective date: September 19, 2026</p>
+      <p class="note">Last updated: October 15, 2026</p>
       <p>Oliven Tile Match is a mobile puzzle game provided by Brounity Studio. The game does not require an account and does not directly request a user's name, email address, or phone number. Brounity Studio does not sell personal data.</p>
 
       <h3>Data That May Be Processed</h3>
@@ -216,6 +226,10 @@
       <h3>Analytics</h3>
       <p>The game may use Firebase Analytics to process app launches, sessions, in-game interactions, device information, and app information for usage analysis, diagnostics, and game improvement.</p>
 
+      <h3>Android Leaderboards and Google Play Games</h3>
+      <p>You can play without a Google Play Games account. If you sign in, its authorization may be linked to a Firebase Authentication game account. Firebase Firestore stores the game account identifier, display nickname, themed avatar, level, personal best time and update timestamp. Nicknames, themed avatars, times and ranks appear to other leaderboard players. We do not receive your Google password. Google Play Games sign-in preferences can be managed in Google Play Games settings.</p>
+      <p>Custom Analytics events may include level starts, completion, failure reasons, active play time, progress, booster types and rewarded-ad requests/results. We do not add display nicknames, email addresses, phone numbers or Play Games/Firebase account IDs to those custom Analytics events. The Analytics SDK may process its own app-instance and device identifiers.</p>
+
       <h3>In-App Purchases</h3>
       <p>In-app purchases are processed by Google Play Billing on Android and by the Apple App Store and StoreKit on iOS. Brounity Studio does not receive or store payment card or bank account details. Google Play and Apple may process product identifiers, transaction identifiers, purchase status, and receipt information under their own terms and privacy policies.</p>
 
@@ -224,6 +238,10 @@
 
       <h3>Children's Privacy</h3>
       <p>Oliven Tile Match is not specifically directed to children under 13, and Brounity Studio does not knowingly request personal information directly from children.</p>
+
+      <h3 id="delete-data-en">Request Oliven Account and Data Deletion</h3>
+      <p>In the Android game, open Settings → Privacy / Delete account, or visit this page directly. <a href="mailto:brounitystudio@gmail.com?subject=Oliven%20Tile%20Match%20account%20and%20data%20deletion%20request">Request deletion of your Oliven account and leaderboard data</a> by email to Brounity Studio. Include your display nickname and, if available, your level/rank. We may ask for additional information to verify ownership and avoid deleting another player's records. Never send passwords, payment card details or verification codes.</p>
+      <p>After verification, the relevant Firebase game account and associated per-level leaderboard records are deleted. This does not delete your Google/Apple account, store payment records or local device saves. Local data can be cleared in your device's app settings. Signing in again may create a new game account and new score records. Records subject to legal obligations or service-provider retention requirements may be handled separately.</p>
 
       <h3>Contact</h3>
       <p>For privacy, data processing, or deletion requests, contact Brounity Studio at <a href="mailto:brounitystudio@gmail.com">brounitystudio@gmail.com</a>.</p>
